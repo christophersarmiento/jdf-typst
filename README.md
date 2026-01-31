@@ -1,6 +1,6 @@
 # Joyner Document Format
 
-This is an **unofficial** port of the Joyner Document Format v2.2 to Typst.
+This is an **unofficial** port of the Joyner Document Format v2.2 to [Typst](https://typst.app/), derived from Jake Warner's [repository](https://github.com/iamjakewarner/jdf/tree/master)
 
 ## Typst Installation
 
@@ -42,13 +42,6 @@ The result should look like `jdf-starter.pdf`.
   - Because of this, you might see some of the spacing defined doesn't technically match the spacings defined in the document, however I've done my best to visually match the spacing after hours of tinkering
 - `jdf-starter.typ` is a starter document that imports the JDF format and demonstrates its usage
 
-## VSCode Quick Start
-
-1. Add the [Latex Workshop](https://github.com/James-Yu/LaTeX-Workshop) Extension
-    - Ensure that `texlive` for your OS is installed. See additional instructions in the extensions' README
-1. Use the preview icon (top left) or use the keyboard shortcut (Ctrl + Alt + V). This will open up a live preview.
-1. Once done, use the green play button, or use keyboard shortcut (Ctrl + Alt + B) to build the project and generate PDF.
-
 ## License
 
 Copyright 2025 Christopher Sarmiento.
@@ -56,4 +49,3 @@ Copyright 2025 Christopher Sarmiento.
 You have my permission to use JDF in whatever projects you wish,
 whether commercial, personal, or otherwise, in whatever way you like.
 Official license information can be found in [LICENSE](LICENSE)
-(spoiler: it's the MIT License 🙀).
